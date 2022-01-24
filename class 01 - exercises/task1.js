@@ -3,10 +3,6 @@
 // Generate an array that has all the even numbers that are divisible by 4 from 1 to 1000
 // Generate an array that has all the numbers that end with the digit 1 from 1 to 1000
 
-
-let arrayTwo = []
-let arrayThree = []
-
 function divisibleByThree () {
     let arrayOne = []
     for (let i = 1; i < 1001; i++) {
@@ -20,6 +16,7 @@ function divisibleByThree () {
 console.log(divisibleByThree())
 
 function evenNumbersAndDivisibleByFour() {
+    let arrayTwo = []
     for (let i = 1; i < 1001; i++) {
         if (i % 2 == 0 && i % 4 == 0) {
             arrayTwo.push(i)
@@ -31,6 +28,7 @@ function evenNumbersAndDivisibleByFour() {
 console.log(evenNumbersAndDivisibleByFour())
 
 function endsWithDigitOne() {
+    let arrayThree = []
     for (let i = 1; i < 1001; i++) {
         if (i % 10 == 1) {
             arrayThree.push(i)
