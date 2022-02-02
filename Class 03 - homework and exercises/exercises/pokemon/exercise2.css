@@ -1,0 +1,36 @@
+#cont {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+h1 {
+    text-align: center;
+}
+
+.poke-names {
+    border: 1px solid black;
+    display: inline-block;
+    margin: 2px;
+    padding: 5px;
+    width: 100px;
+}
+
+#poke-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#img {
+    text-align: center;
+}
+
+#btn {
+    align-items: center;
+    width: 100px;
+}
+
+#info-div {
+    display: flex;
+    justify-content: center;
+}
